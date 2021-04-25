@@ -1,0 +1,35 @@
+body {
+
+	text-align: center;
+	background-image: url(../../dossier/img/retroimg/fondretro.png);
+	align-content: center;
+	
+}
+
+#game {
+
+	text-align: left;
+	font-size: 15px;
+	background-color: #fefae0;
+	width: 800px;
+	margin:auto;
+	border-radius: 6px;
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+h1 {
+
+	text-align: center;
+
+}
+
+@font-face {
+    font-family: 'retrofont';
+    src: url('../../dossier/font/retrofont/04b_30__-webfont.woff2') format('woff2'),
+         url('../../dossier/font/retrofont/04b_30__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

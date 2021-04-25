@@ -1,0 +1,25 @@
+body { 
+	text-align: center;
+	background-image: url(../../dossier/img/giphy.gif);
+}
+
+#pack {
+
+	width: 800px;
+	border-radius: 6px;
+	text-align: center;
+	background-image: url(../../dossier/img/dirt.png);
+	margin: auto;
+	color: white;
+	font-size: 21px;
+
+}
+
+@font-face {
+    font-family: 'minecraftmedium';
+    src: url('../../dossier/font/minecraft-webfont.woff2') format('woff2'),
+         url('../../dossier/font/minecraft-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
