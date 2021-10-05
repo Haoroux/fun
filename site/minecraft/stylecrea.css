@@ -15,6 +15,18 @@ body {
 
 }
 
+#serveur {
+
+	width: 800px;
+	border-radius: 6px;
+	text-align: center;
+	background-image: url(../../dossier/img/dirt.png);
+	margin: auto;
+	color: white;
+	font-size: 21px;
+
+}
+
 @font-face {
     font-family: 'minecraftmedium';
     src: url('../../dossier/font/minecraft-webfont.woff2') format('woff2'),
@@ -23,3 +35,34 @@ body {
     font-style: normal;
 
 }
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: auto;
+  background-color: #f1f1f1;
+  position: fixed;
+  position: left 0px;
+  display: block;
+  border-radius: 6px;
+}
+
+li a {
+  color: #000;
+  padding: auto;
+  text-decoration: none;
+  font-size: 21px;
+  float: left;
+
+}
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.active {
+  background-color: #4CAF50;
+} 
